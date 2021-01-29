@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {               
+    blackground-color:rgba(255, 48, 115, 1);
+    
+     }
+body img#a, img#b, img#c {
+    width: 300;
+    height: 300;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: auto;
+    text-transform: uppercase;
+    border: currentColor;
+    border-radius: 50%;
+
+}
+     
+div#interface {
+    width: 1150;
+    height: 1580;
+    background-color: pink;
+    margin: -10px auto 0px auto;
+    background-image:url(1.png);
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 10px 10px 10px;
+}
+
+p {
+    text-align: center;
+  }
+
+nav#menu {
+    display block;
+
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #ff3073; 
+    padding: 7px;
+    margin: 10px;
+    transition: background-color 1s ;
+}
+
+nav#menu li:hover {
+    background-color: purple;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+    font
+}
+nav#menu a:hover {
+    color: #ffffff;
+}
+
+header#cabecalho img#central {
+    width: 400;
+    height: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+center#topicos {
+    font-family: 'Comic Sans', 'Comic Sans MS', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav#topicos {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 340px;
+    left: 300px;
+}
+
+nav#topicos a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-family: fantasy; 
+}
+
+nav#topicos li {
+    display: inline-block;
+    background-color: #ff3073; 
+    padding: 10px;
+    margin: 15px;
+    transition: Whiteground-color 1s ;
+}
+
+article#que {
+    font-family: Comic sans Ms;
+    color: rgba(255,48,115,1);
+    margin-left: auto;
+    margin-right: auto;
+    width:
+}
+
+hgroup#ww {
+    font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+    color: rgb(0,0,0)
+}
+
